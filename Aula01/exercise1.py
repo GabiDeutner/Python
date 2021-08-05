@@ -1,5 +1,6 @@
 '''
-1. Elabore um programa que leia um número, e se ele for maior do que 20, escreva a metade desse número, caso contrário escreva o próprio número.
+1. Elabore um programa que leia um número, e se ele for maior do que 20, 
+escreva a metade desse número, caso contrário escreva o próprio número.
 '''
 
 print('Digite um numero:')
