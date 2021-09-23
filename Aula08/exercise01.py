@@ -11,7 +11,6 @@ soma = 0
 m = 0 
 n=0 
 
-
 for c in range (0,100,1):
     print('Digite um numero:')
     num = int(input())
