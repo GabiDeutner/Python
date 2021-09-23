@@ -14,8 +14,6 @@ soma = 0
 maior = 0
 menor = 9999999999999999999
  
-
-
 for c in range (0,100,1):
     print('Digite um numero:')
     num = int(input())
@@ -25,7 +23,6 @@ for c in range (0,100,1):
     elif num % 2 !=0:
         impar = impar + 1
     c = c + 1
-
 
 maior = max(A)
 menor = min(A)
