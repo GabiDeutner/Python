@@ -24,7 +24,6 @@ n3=0
 media=0 
 c=0
 
-
 for c in range (0,100,1):
     print('Digite a nota 1:')
     n1 = int(input())
