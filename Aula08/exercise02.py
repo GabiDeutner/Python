@@ -34,4 +34,3 @@ print ('O maior valor é: ', maior)
 print ('O menor valor é: ', menor)
 print ('A quantidade de pares é: ', par)
 print ('A quantidade de ímpares é: ', impar)
-
