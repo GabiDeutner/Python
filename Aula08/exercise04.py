@@ -13,8 +13,7 @@ med = 0
 total=0
 num=0
 
-
-for c in range (0,3,1):
+for c in range (0,100,1):
     print('Digite um numero:')
     num = int(input())
     A.append(num)
