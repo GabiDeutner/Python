@@ -63,5 +63,11 @@ negativo = TotalNegativo(A)
 
 print ('O maior valor é: ', maior)
 print ('O menor valor é: ', menor)
-print ('A quantidade de positivos é: ', positivo)
-print ('A quantidade de negativos é: ', negativo)
+if positivo !=0:
+    print ('A quantidade de positivos é: ', positivo)
+elif positivo == 0:
+    print ('nenhum número positivo foi digitado')
+if negativo !=0:
+    print ('A quantidade de negativos é: ', negativo)
+elif negativo == 0:
+    print ('nenhum número negativo foi digitado')
