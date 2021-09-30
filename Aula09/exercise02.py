@@ -32,5 +32,11 @@ qneg=len(negativo)
 
 print ('O maior valor é: ', Maior)
 print ('O menor valor é: ', Menor)
-print ('A quantidade de números positivos é: ', qpos)
-print ('A quantidade de números negativos é: ', qneg)
+if qpos !=0:
+    print ('A quantidade de positivos é: ', qpos)
+elif qpos == 0:
+    print ('nenhum número positivo foi digitado')
+if qneg !=0:
+    print ('A quantidade de negativos é: ', qneg)
+elif qneg == 0:
+    print ('nenhum número negativo foi digitado')
