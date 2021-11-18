@@ -11,13 +11,13 @@ s = '123456789'
 #    01234
 print(s[len(s)-1:len(s)]) #pega sempre o último número 9
 print(s[len(s)-2:len(s)-1]) #pega sempre o penúltimo número 8
-print(s[len(s)-3:len(s)-2]) #pega sempre o penúltimo número 7
-print(s[len(s)-4:len(s)-3]) #pega sempre o penúltimo número 6
-print(s[len(s)-5:len(s)-4]) #pega sempre o penúltimo número 5
-print(s[len(s)-6:len(s)-5]) #pega sempre o penúltimo número 6
-print(s[len(s)-7:len(s)-6]) #pega sempre o penúltimo número 7
-print(s[len(s)-8:len(s)-7]) #pega sempre o penúltimo número 8
-print(s[len(s)-9:len(s)-8]) #pega sempre o penúltimo número 9
+print(s[len(s)-3:len(s)-2]) #pega número 7
+print(s[len(s)-4:len(s)-3]) #pega número 6
+print(s[len(s)-5:len(s)-4]) #pega número 5
+print(s[len(s)-6:len(s)-5]) #pega número 6
+print(s[len(s)-7:len(s)-6]) #pega número 7
+print(s[len(s)-8:len(s)-7]) #pega número 8
+print(s[len(s)-9:len(s)-8]) #pega número 9
 
 x = slice(0,1,1)
 print(s[x])
